@@ -10,7 +10,7 @@ increase campaign effectiveness and improve sales.
 This project aims to optimize sales in online retail purchasing through data-driven marketing,
 leveraging machine learning models to build an effective customer segmentation strategy.
 
-### DATASET COLLECTION
+### Dataset Collection
 The data used in this project was obtained from the UCI repository. It's known as the Online Retail II Dataset, and it provides valuable insights into customer behaviour and purchasing patterns in the online retail industry (Chen 2019) . The attribute information of the dataset is shown below. [UCI Repository](https://archive.ics.uci.edu/dataset/502/online+retail+ii).
 
 **Attribute Information:**
@@ -31,7 +31,7 @@ The data used in this project was obtained from the UCI repository. It's known a
 
 * Country:  The name of the country where a customer resides.
 
-### DATA PREPROCESSING
+### Data Processing
 During data preprocessing, missing values in the dataset were addressed by removing records with missing customer IDs, eliminating duplicates and invoices indicating no sales, and filtering out abnormal numeric values. Feature selection involved adding columns for total price and description length, as well as extracting date-related features for deeper analysis. These steps ensured dataset integrity and enhanced the dataset for subsequent analyses.
 
 ### Data Analysis
@@ -66,7 +66,7 @@ The Power BI interactive sales dashboard in this project aimed to transform a cl
 ![image](https://github.com/noshiobec/customer-segmentation/assets/96450822/d538b6ec-db76-42d8-8e9d-4dcaab600b73)
 
 
-### ANALYSIS INSIGHT
+### Analysis and Insights 
 * Sales Trends:
   * Saturday had significantly lower sales compared to other weekdays.
   * November had the highest sales, followed closely by December.
