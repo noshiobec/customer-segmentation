@@ -37,9 +37,11 @@ During data preprocessing, missing values in the dataset were addressed by remov
 ### Data Analysis
 The data analysis phase involved exploring various columns to extract insights. Summary statistics, like mean, median, counts, etc., were calculated for all columns. Exploratory data analysis (EDA) helps uncover patterns, trends, and issues in the dataset, enabling informed conclusions for analysis or modelling. Key aspects such as missing values, outliers, and variations are identified using descriptive statistics and visual tools like histograms and scatter plots. EDA aids in recognizing relationships, distributions, and anomalies, facilitating pattern detection and hypothesis development 
 
-![image](https://github.com/noshiobec/customer-segmentation/assets/96450822/d3fa42b3-6968-489f-990a-e2a38de1551d)       **Summary Statstics**
+![image](https://github.com/noshiobec/customer-segmentation/assets/96450822/d3fa42b3-6968-489f-990a-e2a38de1551d)       
+**Summary Statistics**
 
-![image](https://github.com/noshiobec/customer-segmentation/assets/96450822/3f713436-195a-43f2-81e8-80e728d1b61f)        **Word cloud**
+![image](https://github.com/noshiobec/customer-segmentation/assets/96450822/3f713436-195a-43f2-81e8-80e728d1b61f)        
+**Word Cloud**
 
 
 ### Model Selection
@@ -50,6 +52,7 @@ The clustering model implementation and results analysis phase involved evaluati
 
 ### Classification Models Implementation and Results Analysis
 A comprehensive evaluation of multiple classification models was conducted in this project, utilizing a train/test split methodology. The SVM model demonstrated an accuracy of 96.39%, while Logistic Regression and Random Forest models achieved higher accuracy rates of 99.71%. Logistic Regression notably outperformed other models in precision, recall, and f1 score, indicating a strong balance between precision and recall. However, Naïve Bayes presented the shortest execution time, showcasing its cost-efficiency despite achieving lower metric values. Cross-validation results mirrored those of the train/test split, with Logistic Regression consistently performing the best and Naïve Bayes showing its computational advantage. Logistic Regression emerges as the top-performing model overall, but Naïve Bayes may offer a cost-effective alternative for resource optimization.
+
 ![image](https://github.com/noshiobec/customer-segmentation/assets/96450822/4469fa12-c7e1-4c0c-877b-cc9a63eda45c)
 
 ![image](https://github.com/noshiobec/customer-segmentation/assets/96450822/1b1ae45a-1a0d-4c09-8f98-7e8b262f808b)
